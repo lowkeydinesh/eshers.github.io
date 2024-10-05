@@ -3,41 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+    <title>Eshers</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Welcome to My Basic Webpage</h1>
-</header>
 
-<main>
-    <p>This is a simple webpage created using HTML. You can add more content here as you like!</p>
+<main class="main">
+    <header class="header">
+        <a href="#" class="logo">Quiz.</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Newsletter</a>
+            <a href="#">FAQ</a>
+        </nav>
+    </header> 
+
+    <div class="container">
+        <section class="quiz-section">
+            <div class="quiz-box">
+                <h1>Eshers Quiz</h1>
+                <div class="quiz-header">
+                    <span>Climate Action</span>
+                    <span class="header-score">Score: 0 / 5</span>
+                </div>
+
+                <h2 class="question-text">What is the main cause of recent global warming?</h2>
+
+                <div class="option-list">
+                    <!--<div class="option">
+                        <span>A. Fossil fuels</span>
+                    </div>
+                    <div class="option">
+                        <span>B. Deforestation</span>
+                    </div>
+                    <div class="option">
+                        <span>C. Volcanic eruptions</span>
+                    </div>
+                    <div class="option">
+                        <span>D. Solar activity</span>
+                    </div> -->
+                </div>
+                <div class="quiz-footer">
+                    <span class="question-total">1 of 5 Questions</span>
+                    <button class="next-btn">Next</button>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <h2>Quiz Result!</h2>
+                <div class="percentage-container">
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+
+                    <span class="score-text">Your Score 0 out of 5</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="tryAgain-btn">Try Again</button>
+                    <button class="goHome-btn">Go To Home</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="home">
+            <div class="home-content">
+                <h1>Climate Action Quiz</h1>
+                <p>Test your knowledge about climate change and discover ways to take action! This interactive quiz challenges you with fun and engaging questions about the environment, global warming, and sustainability. Learn how small actions can make a big impact on our planet!</p>
+                <button class="start-btn">Start Quiz</button>
+            </div>
+
+        </section>
+    </div>
 </main>
 
-<footer>
-    <p>&copy; 2024 My Website</p>
-</footer>
+<div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1.do this that and this zzzzz</span>
+    <span class="info">2.do this djjjjjjdjdjdjdjdjdjdjd</span>
+    <span class="info">3.do this dddddddddd ccccccc</span>
+    <span class="info">4.do this fffffffff rrrrrrrrrrrr</span>
+    <span class="info">5.do this qqqqqqqqqqc wwwwwwwwwwwwwww</span>
+
+    <div class="btn-group">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+    </div>
+</div>
+    
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
 
 </body>
 </html>
