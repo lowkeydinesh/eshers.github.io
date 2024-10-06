@@ -1,3 +1,6 @@
 [submodule "climate_action_data/Nasa_space_apps_challenge_news_data_course"]
 	path = climate_action_data/Nasa_space_apps_challenge_news_data_course
 	url = https://github.com/rameshkaviyamudan/Nasa_space_apps_challenge_news_data_course.git
+[submodule "news_data_courses/Nasa_space_apps_challenge_news_data_course"]
+	path = news_data_courses/Nasa_space_apps_challenge_news_data_course
+	url = https://github.com/rameshkaviyamudan/Nasa_space_apps_challenge_news_data_course.git
